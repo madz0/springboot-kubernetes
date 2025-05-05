@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: springboot-kubernetes-config
+data:
+  application.properties: |
+    message=Hi from kubernetes!
